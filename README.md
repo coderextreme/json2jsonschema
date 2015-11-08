@@ -18,4 +18,12 @@ Then run
 
 ```
 ./examples2.sh
+./examples.sh
+./final.sh
+./generate.sh
+```
+
+TODO
+```
+./genschemas.sh  # consumes a lot of memory
 ```
