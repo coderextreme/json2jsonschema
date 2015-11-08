@@ -17,17 +17,21 @@ unzip X3dExampleArchivesJsonScenes.zip
 Then run
 
 ```
-./examples2.sh  # produces schema.json
-```
-./final.sh # produces X3DMERGE
+./examples2.sh  # produces schema.json from www.web3d.org JSON files
 ```
 ```
-./generate.sh # produces X3DALL
+./createmerge.sh # produces x3dmerge.json from www.web3d.org JSON files
+```
+```
+./final.sh # produces X3DMERGE Java files from www.web3d.org JSON files
+```
+```
+./generate.sh # produces X3DALL Java files from wwww.web3d.org JSON files
 ```
 
 TODO
 ```
-./genschemas.sh  # consumes a lot of memory
+./genschemas.sh  # produces 7 Java Schema files from www.web3d JSON files
 ```
 ```
 ./examples.sh
