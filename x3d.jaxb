@@ -1,0 +1,1014 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:x3djson:X3D",
+  "properties" : {
+    "@profile" : {
+      "type" : "string"
+    },
+    "@version" : {
+      "type" : "number"
+    },
+    "@xsd:noNamespaceSchemaLocation" : {
+      "type" : "string"
+    },
+    "head" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "id" : "urn:jsonschema:x3djson:Head",
+        "properties" : {
+          "#comment" : {
+            "type" : "string"
+          },
+          "-childNodeFieldNameNotFound" : {
+            "type" : "array",
+            "items" : {
+              "type" : "object",
+              "id" : "urn:jsonschema:x3djson:ChildNodeFieldNameNotFound",
+              "properties" : {
+                "component" : {
+                  "type" : "object",
+                  "id" : "urn:jsonschema:x3djson:Component",
+                  "properties" : {
+                    "@level" : {
+                      "type" : "integer"
+                    },
+                    "@name" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "meta" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:x3djson:Meta",
+            "properties" : {
+              "@content" : {
+                "type" : "string"
+              },
+              "@name" : {
+                "type" : "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Scene" : {
+      "type" : "array",
+      "items" : {
+        "type" : "object",
+        "id" : "urn:jsonschema:x3djson:Scene",
+        "properties" : {
+          "ExternProtoDeclare" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:x3djson:ExternProtoDeclare",
+            "properties" : {
+              "@appinfo" : {
+                "type" : "string"
+              },
+              "@name" : {
+                "type" : "string"
+              },
+              "@url" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "string"
+                }
+              },
+              "#comment" : {
+                "type" : "string"
+              },
+              "field:description" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldDescription",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:waypoints" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldWaypoints",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:add_waypoint" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldAddWaypoint",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:set_waypoints" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldSetWaypoints",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:pitchUpDownForVerticalWaypoints" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldPitchUpDownForVerticalWaypoints",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:legSpeeds" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldLegSpeeds",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:legDurations" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldLegDurations",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:defaultSpeed" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldDefaultSpeed",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:turningRate" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldTurningRate",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:totalDuration" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldTotalDuration",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:set_fraction" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldSetFraction",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:position_changed" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldPositionChanged",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:orientation_changed" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldOrientationChanged",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:lineColor" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldLineColor",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "number"
+                    }
+                  }
+                }
+              },
+              "field:highlightSegmentColor" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldHighlightSegmentColor",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:transparency" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldTransparency",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "number"
+                  }
+                }
+              },
+              "field:labelDisplayMode" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldLabelDisplayMode",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:heightLabel" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldHeightLabel",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:labelOffset" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldLabelOffset",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:labelFontSize" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldLabelFontSize",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:labelColor" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldLabelColor",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:traceEnabled" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldTraceEnabled",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:outputInitializationComputations" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldOutputInitializationComputations",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:verticalDropLineColor" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldVerticalDropLineColor",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "field:verticalDropLineTransparency" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldVerticalDropLineTransparency",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@appinfo" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  }
+                }
+              }
+            }
+          },
+          "#comment" : {
+            "type" : "string"
+          },
+          "ProtoDeclare" : {
+            "type" : "object",
+            "id" : "urn:jsonschema:x3djson:ProtoDeclare",
+            "properties" : {
+              "@appinfo" : {
+                "type" : "string"
+              },
+              "@name" : {
+                "type" : "string"
+              },
+              "field:skinTextureUrl" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldSkinTextureUrl",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              },
+              "field:fishScale" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldFishScale",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "number"
+                    }
+                  }
+                }
+              },
+              "field:fishColor" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldFishColor",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "number"
+                    }
+                  }
+                }
+              },
+              "field:finColor" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldFinColor",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "number"
+                    }
+                  }
+                }
+              },
+              "field:positionKey" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldPositionKey",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "number"
+                    }
+                  }
+                }
+              },
+              "field:positionKeyValue" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldPositionKeyValue",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "number"
+                    }
+                  }
+                }
+              },
+              "field:orientationKey" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldOrientationKey",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "number"
+                    }
+                  }
+                }
+              },
+              "field:orientationKeyValue" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldOrientationKeyValue",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "array",
+                    "items" : {
+                      "type" : "integer"
+                    }
+                  }
+                }
+              },
+              "field:orbitTime" : {
+                "type" : "object",
+                "id" : "urn:jsonschema:x3djson:FieldOrbitTime",
+                "properties" : {
+                  "@accessType" : {
+                    "type" : "string"
+                  },
+                  "@name" : {
+                    "type" : "string"
+                  },
+                  "@type" : {
+                    "type" : "string"
+                  },
+                  "@value" : {
+                    "type" : "integer"
+                  }
+                }
+              },
+              "-firstNodeType:children" : {
+                "type" : "array",
+                "items" : {
+                  "type" : "object",
+                  "id" : "urn:jsonschema:x3djson:FirstNodeTypeChild",
+                  "properties" : {
+                    "ProtoBody" : {
+                      "type" : "array",
+                      "items" : {
+                        "type" : "array",
+                        "items" : {
+                          "type" : "object",
+                          "id" : "urn:jsonschema:x3djson:ProtoBody",
+                          "properties" : {
+                            "-material" : {
+                              "type" : "array",
+                              "items" : {
+                                "type" : "object",
+                                "id" : "urn:jsonschema:x3djson:Material",
+                                "properties" : {
+                                  "@DEF" : {
+                                    "type" : "string"
+                                  },
+                                  "@ambientIntensity" : {
+                                    "type" : "number"
+                                  },
+                                  "@diffuseColor" : {
+                                    "type" : "array",
+                                    "items" : {
+                                      "type" : "number"
+                                    }
+                                  },
+                                  "@emissiveColor" : {
+                                    "type" : "array",
+                                    "items" : {
+                                      "type" : "integer"
+                                    }
+                                  },
+                                  "@shininess" : {
+                                    "type" : "number"
+                                  },
+                                  "@specularColor" : {
+                                    "type" : "array",
+                                    "items" : {
+                                      "type" : "integer"
+                                    }
+                                  },
+                                  "@transparency" : {
+                                    "type" : "integer"
+                                  },
+                                  "@containerField" : {
+                                    "type" : "string"
+                                  },
+                                  "IS" : {
+                                    "type" : "array",
+                                    "items" : {
+                                      "type" : "object",
+                                      "id" : "urn:jsonschema:x3djson:I",
+                                      "properties" : {
+                                        "connect" : {
+                                          "type" : "object",
+                                          "id" : "urn:jsonschema:x3djson:Connect",
+                                          "properties" : {
+                                            "@nodeField" : {
+                                              "type" : "string"
+                                            },
+                                            "@protoField" : {
+                                              "type" : "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "#comment" : {
+                              "type" : "string"
+                            },
+                            "-children" : {
+                              "type" : "array",
+                              "items" : {
+                                "type" : "object",
+                                "id" : "urn:jsonschema:x3djson:Child",
+                                "properties" : {
+                                  "Shape" : {
+                                    "type" : "object",
+                                    "id" : "urn:jsonschema:x3djson:Shape",
+                                    "properties" : {
+                                      "@DEF" : {
+                                        "type" : "string"
+                                      },
+                                      "@containerField" : {
+                                        "type" : "string"
+                                      },
+                                      "@bboxCenter" : {
+                                        "type" : "array",
+                                        "items" : {
+                                          "type" : "integer"
+                                        }
+                                      },
+                                      "@bboxSize" : {
+                                        "type" : "array",
+                                        "items" : {
+                                          "type" : "integer"
+                                        }
+                                      },
+                                      "-appearance" : {
+                                        "type" : "array",
+                                        "items" : {
+                                          "type" : "object",
+                                          "id" : "urn:jsonschema:x3djson:Appearance",
+                                          "properties" : {
+                                            "@containerField" : {
+                                              "type" : "string"
+                                            },
+                                            "-material" : {
+                                              "type" : "array",
+                                              "items" : {
+                                                "$ref" : "urn:jsonschema:x3djson:Material"
+                                              }
+                                            },
+                                            "-texture" : {
+                                              "type" : "array",
+                                              "items" : {
+                                                "type" : "object",
+                                                "id" : "urn:jsonschema:x3djson:Texture",
+                                                "properties" : {
+                                                  "ImageTexture" : {
+                                                    "type" : "object",
+                                                    "id" : "urn:jsonschema:x3djson:ImageTexture",
+                                                    "properties" : {
+                                                      "@DEF" : {
+                                                        "type" : "string"
+                                                      },
+                                                      "@url" : {
+                                                        "type" : "array",
+                                                        "items" : {
+                                                          "type" : "string"
+                                                        }
+                                                      },
+                                                      "@repeatS" : {
+                                                        "type" : "boolean"
+                                                      },
+                                                      "@repeatT" : {
+                                                        "type" : "boolean"
+                                                      },
+                                                      "@containerField" : {
+                                                        "type" : "string"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "-textureTransform" : {
+                                              "type" : "array",
+                                              "items" : {
+                                                "type" : "object",
+                                                "id" : "urn:jsonschema:x3djson:TextureTransform",
+                                                "properties" : {
+                                                  "@DEF" : {
+                                                    "type" : "string"
+                                                  },
+                                                  "@center" : {
+                                                    "type" : "array",
+                                                    "items" : {
+                                                      "type" : "integer"
+                                                    }
+                                                  },
+                                                  "@rotation" : {
+                                                    "type" : "integer"
+                                                  },
+                                                  "@scale" : {
+                                                    "type" : "array",
+                                                    "items" : {
+                                                      "type" : "integer"
+                                                    }
+                                                  },
+                                                  "@translation" : {
+                                                    "type" : "array",
+                                                    "items" : {
+                                                      "type" : "integer"
+                                                    }
+                                                  },
+                                                  "@containerField" : {
+                                                    "type" : "string"
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "#comment" : {
+                                              "type" : "string"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "-geometry" : {
+                                        "type" : "array",
+                                        "items" : {
+                                          "type" : "object",
+                                          "id" : "urn:jsonschema:x3djson:Geometry",
+                                          "properties" : {
+                                            "Box" : {
+                                              "type" : "object",
+                                              "id" : "urn:jsonschema:x3djson:Box",
+                                              "properties" : {
+                                                "@DEF" : {
+                                                  "type" : "string"
+                                                },
+                                                "@size" : {
+                                                  "type" : "array",
+                                                  "items" : {
+                                                    "type" : "integer"
+                                                  }
+                                                },
+                                                "@solid" : {
+                                                  "type" : "boolean"
+                                                },
+                                                "@containerField" : {
+                                                  "type" : "string"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "ROUTE" : {
+                              "type" : "object",
+                              "id" : "urn:jsonschema:x3djson:ROUTE",
+                              "properties" : {
+                                "@fromField" : {
+                                  "type" : "string"
+                                },
+                                "@fromNode" : {
+                                  "type" : "string"
+                                },
+                                "@toField" : {
+                                  "type" : "string"
+                                },
+                                "@toNode" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "-children" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "urn:jsonschema:x3djson:Child"
+            }
+          }
+        }
+      }
+    }
+  }
+}

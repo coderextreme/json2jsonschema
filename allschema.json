@@ -1,0 +1,136 @@
+{
+  "items": [
+    {
+      "type": [
+        "array", 
+        "object"
+      ], 
+      "properties": {
+        "pipeLines": {
+          "items": [
+            {
+              "required": [
+                "description", 
+                "name", 
+                "pipeElements", 
+                "version"
+              ], 
+              "type": "object", 
+              "properties": {
+                "name": {
+                  "type": "string"
+                }, 
+                "pipeElements": {
+                  "items": [
+                    {
+                      "required": [
+                        "className"
+                      ], 
+                      "type": "object", 
+                      "properties": {
+                        "className": {
+                          "type": "string"
+                        }, 
+                        "option": {
+                          "required": [
+                            "key", 
+                            "value"
+                          ], 
+                          "type": [
+                            "array", 
+                            "object"
+                          ], 
+                          "properties": {
+                            "value": {
+                              "type": [
+                                "integer", 
+                                "string"
+                              ]
+                            }, 
+                            "key": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ], 
+                  "type": "array"
+                }, 
+                "headless": {
+                  "type": "boolean"
+                }, 
+                "streamType": {
+                  "type": "string"
+                }, 
+                "version": {
+                  "type": [
+                    "number", 
+                    "string"
+                  ]
+                }, 
+                "description": {
+                  "type": "string"
+                }
+              }
+            }
+          ], 
+          "type": "array"
+        }, 
+        "description": {
+          "type": "string"
+        }, 
+        "headless": {
+          "type": [
+            "boolean", 
+            "string"
+          ]
+        }, 
+        "version": {
+          "type": [
+            "number", 
+            "string"
+          ]
+        }, 
+        "pipeElement": {
+          "items": [
+            {
+              "required": [
+                "className"
+              ], 
+              "type": "object", 
+              "properties": {
+                "className": {
+                  "type": "string"
+                }, 
+                "option": {
+                  "required": [
+                    "key", 
+                    "value"
+                  ], 
+                  "type": [
+                    "array", 
+                    "object"
+                  ], 
+                  "properties": {
+                    "value": {
+                      "type": "string"
+                    }, 
+                    "key": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          ], 
+          "type": "array"
+        }, 
+        "name": {
+          "type": "string"
+        }
+      }
+    }
+  ], 
+  "type": "array"
+}
