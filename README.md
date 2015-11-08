@@ -17,13 +17,18 @@ unzip X3dExampleArchivesJsonScenes.zip
 Then run
 
 ```
-./examples2.sh
-./examples.sh
-./final.sh
-./generate.sh
+./examples2.sh  # produces schema.json
+```
+./final.sh # produces X3DMERGE
+```
+```
+./generate.sh # produces X3DALL
 ```
 
 TODO
 ```
 ./genschemas.sh  # consumes a lot of memory
+```
+```
+./examples.sh
 ```
