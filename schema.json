@@ -1,0 +1,6637 @@
+{
+  "type": "object", 
+  "id": "urn:jsonschema:x3djson:A10Thunderbolt", 
+  "properties": {
+    "-outerShapeMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@description": {
+      "type": "string"
+    }, 
+    "@convex": {
+      "type": "boolean"
+    }, 
+    "-outsideMaxFront": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:displayMode": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldDisplayMode", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@accessType": {
+      "type": "string"
+    }, 
+    "-fontStyle": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@initialValue": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@munitionApplicationID": {
+      "type": "integer"
+    }, 
+    "@initialDestination": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-firstMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@endAngle": {
+      "type": "number"
+    }, 
+    "@topUrl": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:selectedLabelColor": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldSelectedLabelColor", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-clock2": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@xDimension": {
+      "type": "integer"
+    }, 
+    "@linearAcceleration": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@url": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@containerField": {
+      "type": "string"
+    }, 
+    "-cShapeDamperTrailPoint": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-ellipsoid1Color": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@pauseTime": {
+      "type": "integer"
+    }, 
+    "-ElevationGridNode": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@language": {
+      "type": "string"
+    }, 
+    "-cockpitColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@nodeField": {
+      "type": "string"
+    }, 
+    "@solid": {
+      "type": "boolean"
+    }, 
+    "field:isActive": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldIsActive", 
+      "properties": {
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@entityCountry": {
+      "type": "integer"
+    }, 
+    "@beginCap": {
+      "type": "boolean"
+    }, 
+    "-sphere1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@siteID": {
+      "type": "integer"
+    }, 
+    "X3D": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-view0": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:isPaused": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldIsPaused", 
+      "properties": {
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@side": {
+      "type": "boolean"
+    }, 
+    "ROUTE": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:ROUTE", 
+      "properties": {
+        "@toField": {
+          "type": "string"
+        }, 
+        "@toNode": {
+          "type": "string"
+        }, 
+        "@fromNode": {
+          "type": "string"
+        }, 
+        "@fromField": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:buttonColor": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldButtonColor", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-fromNode": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-defaultMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@point": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-dir": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@eventSiteID": {
+      "type": "integer"
+    }, 
+    "@detonationResult": {
+      "type": "integer"
+    }, 
+    "-root": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:setDisplayMode": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldSetDisplayMode", 
+      "properties": {
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@height": {
+      "items": [
+        {}
+      ], 
+      "type": [
+        "array", 
+        "number"
+      ]
+    }, 
+    "-sceneText": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-horizontalStabilizerColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@toggle": {
+      "type": "boolean"
+    }, 
+    "@innerRadius": {
+      "type": "number"
+    }, 
+    "#comment": {
+      "type": "string"
+    }, 
+    "@networkMode": {
+      "type": "string"
+    }, 
+    "@collisionType": {
+      "type": "integer"
+    }, 
+    "@firingRate": {
+      "type": "integer"
+    }, 
+    "-viewpointsSwitch": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-a_Field": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-nav1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-roof": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-parts": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:time_changed": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldTimeChanged", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:isRemote": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldIsRemote", 
+      "properties": {
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-appearance": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@munitionSiteID": {
+      "type": "integer"
+    }, 
+    "@entityDomain": {
+      "type": "integer"
+    }, 
+    "@entitySpecific": {
+      "type": "integer"
+    }, 
+    "-defaultFog": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-mySound1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@marking": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-mySound3": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-mySound2": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-imageTexture": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@stopTime": {
+      "type": "integer"
+    }, 
+    "@leftUrl": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-vertices": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@loop": {
+      "type": "boolean"
+    }, 
+    "@endCap": {
+      "type": "boolean"
+    }, 
+    "@geoCoords": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@entityKind": {
+      "type": "integer"
+    }, 
+    "@direction": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-textureTransform": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@munitionEntityID": {
+      "type": "integer"
+    }, 
+    "-rooms": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@munitionStartPoint": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-b_Field": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@axisRotation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@scaleOrientation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-myText": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@key": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@colorPerVertex": {
+      "type": "boolean"
+    }, 
+    "@startTime": {
+      "type": "integer"
+    }, 
+    "@offset": {
+      "type": "integer"
+    }, 
+    "@zSpacing": {
+      "type": "integer"
+    }, 
+    "-Appearance": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-viewpoints": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@keyValue": {
+      "items": [
+        {}
+      ], 
+      "type": [
+        "array", 
+        "string"
+      ]
+    }, 
+    "field:fraction_changed": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldFractionChanged", 
+      "properties": {
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-roofline": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@groundColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-xMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@skyColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:labelColor": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldLabelColor", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@backUrl": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@ccw": {
+      "type": "boolean"
+    }, 
+    "field:locationOffset": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldLocationOffset", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-TchPgDown": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-GrDamperTrail": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-endMaterialMinor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-thisNode": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@resumeTime": {
+      "type": "integer"
+    }, 
+    "-switchOuterRound": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-switchOuterSquare": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-TchPgUp": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:description": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldDescription", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@order": {
+      "type": "integer"
+    }, 
+    "-tailRotorDriveShaftColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@zDimension": {
+      "type": "integer"
+    }, 
+    "-B5": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-endMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-switchInnerSquare": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-signalProfileMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-ellipsoid2Color": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@appinfo": {
+      "type": "string"
+    }, 
+    "-children": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@level": {
+      "type": "integer"
+    }, 
+    "component": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:Component", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@level": {
+          "type": "integer"
+        }
+      }
+    }, 
+    "@munitionEndPoint": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-beginMaterialMinor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-horizontalFalseMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-mySwitch": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-material": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-initializedChildren": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@radius": {
+      "type": "number"
+    }, 
+    "-sceneTransform": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@fired2": {
+      "type": "boolean"
+    }, 
+    "@firingRange": {
+      "type": "integer"
+    }, 
+    "@axisOfRotation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:isLocal": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldIsLocal", 
+      "properties": {
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@AS": {
+      "type": "string"
+    }, 
+    "-B6": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-rocketAppearance": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@tolerance": {
+      "type": "integer"
+    }, 
+    "@entityExtra": {
+      "type": "integer"
+    }, 
+    "-Timer": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-middleMaterialMinor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@bottom": {
+      "type": "boolean"
+    }, 
+    "@outerRadius": {
+      "type": "integer"
+    }, 
+    "-hornColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-topToBottomTrueMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-runtimeMaterialInstance": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@enabled": {
+      "type": "boolean"
+    }, 
+    "-keyValueHolderNode": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@documentation": {
+      "type": "string"
+    }, 
+    "@articulationParameterCount": {
+      "type": "integer"
+    }, 
+    "@closureType": {
+      "type": "string"
+    }, 
+    "-switchInnerRound": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-leftToRightTrueMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-cowlingColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-proxSensor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@size": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@frontUrl": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:selectedButtonColor": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldSelectedButtonColor", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@deadReckoning": {
+      "type": "integer"
+    }, 
+    "field:traceEnabled": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldTraceEnabled", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "type": "boolean"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@applicationID": {
+      "type": "integer"
+    }, 
+    "-nodein1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@detonationLocation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-MaterialNodeHolder": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@readInterval": {
+      "type": "number"
+    }, 
+    "@diskAngle": {
+      "type": "number"
+    }, 
+    "field:playEnabled": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPlayEnabled", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "type": "boolean"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-yMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-ellipsoid3Color": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-horizontalTrueMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-firstMaterialMinor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-clock1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-mySound": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-text": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@bottomUrl": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@localDEF": {
+      "type": "string"
+    }, 
+    "-typestring3": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@DEF": {
+      "type": "string"
+    }, 
+    "field:startTime_changed": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldStartTimeChanged", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:clockEnabled": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldClockEnabled", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "type": "boolean"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-ceiling": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-ellipsoid2": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-GrChaserTrail": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@multicastRelayPort": {
+      "type": "integer"
+    }, 
+    "pipeLines": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@port": {
+      "type": "integer"
+    }, 
+    "@eventApplicationID": {
+      "type": "integer"
+    }, 
+    "@spine": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@protoField": {
+      "type": "string"
+    }, 
+    "field:secondsElapsed": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldSecondsElapsed", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:cycleInterval_changed": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldCycleIntervalChanged", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@munitionQuantity": {
+      "type": "integer"
+    }, 
+    "@groundAngle": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-levels": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-LocalTimeDelayClock": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@startAngle": {
+      "type": "integer"
+    }, 
+    "@geoSystem": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@type": {
+      "type": "string"
+    }, 
+    "-TrKnob": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@fuse": {
+      "type": "integer"
+    }, 
+    "-ProximityZone": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-keyHolderNode": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-nodeout1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-nodeout2": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@minAngle": {
+      "type": "number"
+    }, 
+    "-walls": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-axes": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:isRunning": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldIsRunning", 
+      "properties": {
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@writeInterval": {
+      "type": "number"
+    }, 
+    "@bboxSize": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@rightUrl": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@crossSection": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-GroundGrid": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@pitch": {
+      "type": "number"
+    }, 
+    "-beginMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-InitialAppearance": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-phonoColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "Coordinate": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:Coordinate", 
+      "properties": {
+        "@DEF": {
+          "type": "string"
+        }, 
+        "@point": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "@containerField": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-Cirrus": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-sceneMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@parameter": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@scale": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-cShapeChaserTrailPoint": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:speedFactor": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldSpeedFactor", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "type": "integer"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@warhead": {
+      "type": "integer"
+    }, 
+    "@bottomRadius": {
+      "type": "number"
+    }, 
+    "@forceID": {
+      "type": "integer"
+    }, 
+    "@detonationRelativeLocation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-footprint": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-ColorNode": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-edges": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@top": {
+      "type": "boolean"
+    }, 
+    "@maxAngle": {
+      "type": "integer"
+    }, 
+    "-ModifiableExternalNode": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-typestring4": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-topToBottomFalseMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-B8": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-B9": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@fired1": {
+      "type": "boolean"
+    }, 
+    "-rootTrans": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-B4": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-tailBoomColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@entityCategory": {
+      "type": "integer"
+    }, 
+    "-B7": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-B0": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-B1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-B2": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-polygon": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-zMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-ellipsoid3": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-nodein2": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@orientation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:stopTime_changed": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldStopTimeChanged", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-FrustumExtrusion": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-FrustumCoordinate": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-descriptionHolder": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-myTrans": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@address": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@eventEntityID": {
+      "type": "integer"
+    }, 
+    "-middleMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-nodeout": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-myself": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@on": {
+      "type": "boolean"
+    }, 
+    "@rotation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@center": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-TrStickBelow": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-defaultText": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-staircases": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-GroundTrans": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@translation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-leftToRightFalseMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@entitySubcategory": {
+      "type": "integer"
+    }, 
+    "-floorLevels": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-view1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-view2": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@bboxCenter": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:isMaster": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldIsMaster", 
+      "properties": {
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@entityID": {
+      "type": "integer"
+    }, 
+    "-geometry": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@ambientIntensity": {
+      "type": "integer"
+    }, 
+    "-toggleMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-Cumulus": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-B3": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-EFFS": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@linearVelocity": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@tau": {
+      "type": "number"
+    }, 
+    "-color": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@eventNumber": {
+      "type": "integer"
+    }, 
+    "IS": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@color": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:cycleInterval": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldCycleInterval", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "type": "number"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-toNode": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@normalPerVertex": {
+      "type": "boolean"
+    }, 
+    "-floor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@value": {
+      "items": [
+        {}
+      ], 
+      "type": [
+        "array", 
+        "boolean", 
+        "number", 
+        "string"
+      ]
+    }, 
+    "-rooflines": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@fireMissionIndex": {
+      "type": "integer"
+    }, 
+    "-typestring2": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:set_cycleInterval": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldSetCycleInterval", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-typestring0": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-typestring1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@name": {
+      "type": "string"
+    }, 
+    "-texture": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@skyAngle": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-displayedHolder": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@xSpacing": {
+      "type": "integer"
+    }, 
+    "@global": {
+      "type": "boolean"
+    }, 
+    "@autoOffset": {
+      "type": "boolean"
+    }, 
+    "@creaseAngle": {
+      "type": "number"
+    }, 
+    "-nodein": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-dragChildren": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-fuselageColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@intensity": {
+      "type": "integer"
+    }, 
+    "field:testTimeVal": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldTestTimeVal", 
+      "properties": {
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "type": "integer"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-view10": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-viewedMaterial": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-redfog": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@rtpHeaderExpected": {
+      "type": "boolean"
+    }, 
+    "-myFont": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-sound1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:decis": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldDecis", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-sound2": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-trans1": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-TrStickAbove": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }
+  }
+}
+{
+  "type": [
+    "array", 
+    "object"
+  ], 
+  "id": "urn:jsonschema:x3djson:Figure2013cDirectionalLightSunset", 
+  "properties": {
+    "@description": {
+      "type": "string"
+    }, 
+    "@string": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@vDimension": {
+      "type": "integer"
+    }, 
+    "@toNode": {
+      "type": "string"
+    }, 
+    "MetadataSet": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:MetadataSet", 
+      "properties": {
+        "@DEF": {
+          "type": "string"
+        }, 
+        "-value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@reference": {
+          "type": "string"
+        }, 
+        "@containerField": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-fontStyle": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@initialValue": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@initialDestination": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@minFront": {
+      "type": "number"
+    }, 
+    "streamType": {
+      "type": "string"
+    }, 
+    "field:PAN_LEFT": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPANLEFT", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@repeatS": {
+      "type": "boolean"
+    }, 
+    "@xDimension": {
+      "type": "integer"
+    }, 
+    "@url": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@containerField": {
+      "type": "string"
+    }, 
+    "field:ROTATEOBJECT_LEFT_RIGHT_AXIS": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldROTATEOBJECTLEFTRIGHTAXIS", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "fieldValue:StbdRunningLightOnOffSwitch": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueStbdRunningLightOnOffSwitch", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@diffuseColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-children": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@uClosed": {
+      "type": "boolean"
+    }, 
+    "@leftToRight": {
+      "type": "boolean"
+    }, 
+    "@solid": {
+      "type": "boolean"
+    }, 
+    "@vertices": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@vector": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@forceTransitions": {
+      "type": "boolean"
+    }, 
+    "@applied": {
+      "type": "boolean"
+    }, 
+    "@justify": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@transitionTime": {
+      "type": "number"
+    }, 
+    "@avatarSize": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@mode": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@hatched": {
+      "type": "boolean"
+    }, 
+    "X3D": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-normal": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@position": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@maxFront": {
+      "type": "integer"
+    }, 
+    "@uOrder": {
+      "type": "integer"
+    }, 
+    "field:Action_45": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction45", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_3": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction3", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@load": {
+      "type": "boolean"
+    }, 
+    "field:Action_1": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction1", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_0": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction0", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@point": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:Action_6": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction6", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_5": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction5", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_4": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction4", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@hatchColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:Action_9": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction9", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_8": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction8", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@navType": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-coord": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@height": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "fieldValue:PortRunningLightPosition": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValuePortRunningLightPosition", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "field:Action_35": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction35", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_34": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction34", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_37": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction37", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "fieldValue:AftAnchorLightPosition": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueAftAnchorLightPosition", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "field:Action_31": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction31", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_30": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction30", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@coordIndex": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:Action_32": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction32", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@title": {
+      "type": "string"
+    }, 
+    "@pauseTime": {
+      "type": "integer"
+    }, 
+    "field:Action_39": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction39", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_38": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction38", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@visibilityRange": {
+      "type": "integer"
+    }, 
+    "@directOutput": {
+      "type": "boolean"
+    }, 
+    "@index": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:poll": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPoll", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-appearance": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "name": {
+      "type": "string"
+    }, 
+    "@yScale": {
+      "type": "number"
+    }, 
+    "@keyValue": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-textureTransform": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "fieldValue:SternLightPosition": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueSternLightPosition", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "-value": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@repeatT": {
+      "type": "boolean"
+    }, 
+    "@location": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-metadata": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@geoCoords": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@direction": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "fieldValue:WhiteRunningLightOnOffSwitch": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueWhiteRunningLightOnOffSwitch", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "fieldValue:UpperMastHeadLightScale": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueUpperMastHeadLightScale", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "fieldValue:StbdRunningLightPosition": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueStbdRunningLightPosition", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@zDimension": {
+      "type": "integer"
+    }, 
+    "@edgeBeginVector": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@uTessellation": {
+      "type": "integer"
+    }, 
+    "meta": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:Meta", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@content": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:PAN_RIGHT": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPANRIGHT", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@scaleOrientation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "AudioClip": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:AudioClip", 
+      "properties": {
+        "@description": {
+          "type": "string"
+        }, 
+        "IS": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "@url": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "@stopTime": {
+          "type": "integer"
+        }, 
+        "@pitch": {
+          "type": "number"
+        }, 
+        "@startTime": {
+          "type": "integer"
+        }, 
+        "@resumeTime": {
+          "type": "integer"
+        }, 
+        "@pauseTime": {
+          "type": "integer"
+        }, 
+        "@containerField": {
+          "type": "string"
+        }, 
+        "@loop": {
+          "type": "boolean"
+        }
+      }
+    }, 
+    "field:Action_22": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction22", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@key": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:Action_20": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction20", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_21": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction21", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_26": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction26", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "connect": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:Connect", 
+      "properties": {
+        "@nodeField": {
+          "type": "string"
+        }, 
+        "@protoField": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@offset": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-controlPoint": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@zSpacing": {
+      "type": "integer"
+    }, 
+    "@alpha": {
+      "type": "number"
+    }, 
+    "field:Action_29": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction29", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@spatialize": {
+      "type": "boolean"
+    }, 
+    "@vertexRound": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@rotateYUp": {
+      "type": "boolean"
+    }, 
+    "field:PICK_OBJECT": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPICKOBJECT", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@colorPerVertex": {
+      "type": "boolean"
+    }, 
+    "@transitionType": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "fieldValue:FwdAnchorLightPosition": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueFwdAnchorLightPosition", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@retainUserOffsets": {
+      "type": "boolean"
+    }, 
+    "pipeElements": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@value": {
+      "items": [
+        {}
+      ], 
+      "type": [
+        "array", 
+        "integer"
+      ]
+    }, 
+    "TextureCoordinate": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:TextureCoordinate", 
+      "properties": {
+        "@DEF": {
+          "type": "string"
+        }, 
+        "@point": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "@containerField": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@mustEvaluate": {
+      "type": "boolean"
+    }, 
+    "@speedFactor": {
+      "type": "number"
+    }, 
+    "@uDimension": {
+      "type": "integer"
+    }, 
+    "version": {
+      "type": "string"
+    }, 
+    "-color": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:define": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldDefine", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@image": {
+      "type": "string"
+    }, 
+    "ExternProtoDeclare": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:ExternProtoDeclare", 
+      "properties": {
+        "field:displayMode": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldDisplayMode", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "@appinfo": {
+          "type": "string"
+        }, 
+        "field:stopTime_changed": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldStopTimeChanged", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:isLocal": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldIsLocal", 
+          "properties": {
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:locationOffset": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldLocationOffset", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "items": [
+                {}
+              ], 
+              "type": "array"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "@url": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "field:clockEnabled": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldClockEnabled", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "type": "boolean"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:fraction_changed": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldFractionChanged", 
+          "properties": {
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:isPaused": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldIsPaused", 
+          "properties": {
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "field:testTimeVal": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldTestTimeVal", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "type": "integer"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:selectedLabelColor": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldSelectedLabelColor", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "items": [
+                {}
+              ], 
+              "type": "array"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:startTime_changed": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldStartTimeChanged", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:isMaster": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldIsMaster", 
+          "properties": {
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:isActive": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldIsActive", 
+          "properties": {
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:description": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldDescription", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:buttonColor": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldButtonColor", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "items": [
+                {}
+              ], 
+              "type": "array"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:isRunning": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldIsRunning", 
+          "properties": {
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:cycleInterval": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldCycleInterval", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "type": "number"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:setDisplayMode": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldSetDisplayMode", 
+          "properties": {
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:time_changed": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldTimeChanged", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:playEnabled": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPlayEnabled", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "type": "boolean"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:secondsElapsed": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldSecondsElapsed", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:cycleInterval_changed": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldCycleIntervalChanged", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:isRemote": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldIsRemote", 
+          "properties": {
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:speedFactor": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldSpeedFactor", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "type": "integer"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:labelColor": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldLabelColor", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "items": [
+                {}
+              ], 
+              "type": "array"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:selectedButtonColor": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldSelectedButtonColor", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "items": [
+                {}
+              ], 
+              "type": "array"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:traceEnabled": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldTraceEnabled", 
+          "properties": {
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "type": "boolean"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@appinfo": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:set_cycleInterval": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldSetCycleInterval", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }, 
+    "@stripCount": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "IS": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@order": {
+      "type": "integer"
+    }, 
+    "Box": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:Box", 
+      "properties": {
+        "@DEF": {
+          "type": "string"
+        }, 
+        "@solid": {
+          "type": "boolean"
+        }, 
+        "@containerField": {
+          "type": "string"
+        }, 
+        "@size": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "field:PAN_UP": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPANUP", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@vKnot": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@color": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@fanCount": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:ACTIVATION": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldACTIVATION", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:OBJ_2_ROT": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldOBJ2ROT", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:POINTER_2": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPOINTER2", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:POINTER_1": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPOINTER1", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_33": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction33", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_46": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction46", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@jump": {
+      "type": "boolean"
+    }, 
+    "-material": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "fieldValue:PortRunningLightOnOffSwitch": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValuePortRunningLightOnOffSwitch", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@resumeTime": {
+      "type": "integer"
+    }, 
+    "key": {
+      "type": "string"
+    }, 
+    "ProtoBody": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@duration": {
+      "type": "integer"
+    }, 
+    "#comment": {
+      "type": "string"
+    }, 
+    "@xSpacing": {
+      "type": "integer"
+    }, 
+    "@emissiveColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@speed": {
+      "type": "number"
+    }, 
+    "@linewidthScaleFactor": {
+      "type": "integer"
+    }, 
+    "-source": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@edgeRound": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:Action_50": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction50", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@headlight": {
+      "type": "boolean"
+    }, 
+    "pipeElement": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:settingsName": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldSettingsName", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@enabled": {
+      "type": "boolean"
+    }, 
+    "@source": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "headless": {
+      "type": [
+        "boolean", 
+        "string"
+      ]
+    }, 
+    "-firstNodeType:children": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:LOOK_DOWN": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldLOOKDOWN", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@size": {
+      "items": [
+        {}
+      ], 
+      "type": [
+        "array", 
+        "number"
+      ]
+    }, 
+    "@vTessellation": {
+      "type": "integer"
+    }, 
+    "@version": {
+      "type": "number"
+    }, 
+    "field:UP_DOWN_AXIS": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldUPDOWNAXIS", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@filled": {
+      "type": "boolean"
+    }, 
+    "field:LOOK_UP": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldLOOKUP", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:ADD_OBJECT": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldADDOBJECT", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@minBack": {
+      "type": "number"
+    }, 
+    "fieldValue:AftAnchorLightScale": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueAftAnchorLightScale", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@vOrder": {
+      "type": "integer"
+    }, 
+    "ROUTE": {
+      "properties": {
+        "@toField": {
+          "type": "string"
+        }, 
+        "@toNode": {
+          "type": "string"
+        }, 
+        "@fromNode": {
+          "type": "string"
+        }, 
+        "@fromField": {
+          "type": "string"
+        }
+      }, 
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:ROUTE", 
+      "$ref": "urn:jsonschema:x3djson:ROUTE"
+    }, 
+    "@content": {
+      "type": "string"
+    }, 
+    "field:DISPLAY_MENU": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldDISPLAYMENU", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@transparency": {
+      "type": "integer"
+    }, 
+    "field:Action_49": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction49", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@specularColor": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:TRACING": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldTRACING", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@normalIndex": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@DEF": {
+      "type": "string"
+    }, 
+    "@horizontal": {
+      "type": "boolean"
+    }, 
+    "field:PAN_LEFT_RIGHT_AXIS": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPANLEFTRIGHTAXIS", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_44": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction44", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@info": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@whichChoice": {
+      "type": "integer"
+    }, 
+    "field:Action_47": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction47", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_40": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction40", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_41": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction41", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_42": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction42", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_43": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction43", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:QUIT": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldQUIT", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "fieldValue:LowerMastHeadLightScale": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueLowerMastHeadLightScale", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "field:Action_48": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction48", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "fieldValue:PortRunningLightScale": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValuePortRunningLightScale", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@maxPosition": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@integerKey": {
+      "type": "integer"
+    }, 
+    "@range": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@hatchStyle": {
+      "type": "integer"
+    }, 
+    "@length": {
+      "type": "integer"
+    }, 
+    "@lineSegments": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@geoSystem": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:BANK_AXIS": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldBANKAXIS", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@convex": {
+      "type": "boolean"
+    }, 
+    "-geometry": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@shellType": {
+      "type": "string"
+    }, 
+    "-childNodeFieldNameNotFound": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@orientation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "fieldValue:LowerMastHeadLightPosition": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueLowerMastHeadLightPosition", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@weight": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:LOOK_RIGHT": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldLOOKRIGHT", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "-geoOrigin": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:PAN_DOWN": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPANDOWN", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@bboxSize": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:Action_28": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction28", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@intensity": {
+      "type": "integer"
+    }, 
+    "@linetype": {
+      "type": "integer"
+    }, 
+    "fieldValue:SternLightScale": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueSternLightScale", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "fieldValue:UpperMastHeadLightPosition": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueUpperMastHeadLightPosition", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@stopTime": {
+      "type": "integer"
+    }, 
+    "@maxExtent": {
+      "type": "number"
+    }, 
+    "@scale": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@radius": {
+      "type": "number"
+    }, 
+    "@tolerance": {
+      "type": "integer"
+    }, 
+    "fieldValue:FwdAnchorLightScale": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueFwdAnchorLightScale", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@visibilityLimit": {
+      "type": "integer"
+    }, 
+    "field:timeStep": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldTimeStep", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@cycleInterval": {
+      "type": "integer"
+    }, 
+    "field:OBJ_1_ROT": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldOBJ1ROT", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:ROTATEOBJECT_UP_DOWN_AXIS": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldROTATEOBJECTUPDOWNAXIS", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "ComposedShader": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:ComposedShader", 
+      "properties": {
+        "@language": {
+          "type": "string"
+        }, 
+        "IS": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "#comment": {
+          "type": "string"
+        }, 
+        "field:decis": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldDecis", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "@containerField": {
+          "type": "string"
+        }, 
+        "-parts": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "value": {
+      "type": "string"
+    }, 
+    "className": {
+      "type": "string"
+    }, 
+    "@priority": {
+      "type": "number"
+    }, 
+    "field:PAN": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPAN", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@topToBottom": {
+      "type": "boolean"
+    }, 
+    "@toField": {
+      "type": "string"
+    }, 
+    "@ambientIntensity": {
+      "type": "number"
+    }, 
+    "@type": {
+      "items": [
+        {}
+      ], 
+      "type": [
+        "array", 
+        "string"
+      ]
+    }, 
+    "field:Action_27": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction27", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@function": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@vClosed": {
+      "type": "boolean"
+    }, 
+    "@spacing": {
+      "type": "number"
+    }, 
+    "@attenuation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:Action_24": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction24", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_2": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction2", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:THRUST_AXIS": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldTHRUSTAXIS", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_25": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction25", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@fieldOfView": {
+      "type": "number"
+    }, 
+    "head": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "Scene": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@startTime": {
+      "type": "integer"
+    }, 
+    "ShaderPart": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:ShaderPart", 
+      "properties": {
+        "@containerField": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }, 
+        "@url": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "fieldValue:StbdRunningLightScale": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueStbdRunningLightScale", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@cutOffAngle": {
+      "type": "number"
+    }, 
+    "@edgeEndVector": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@center": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@maxBack": {
+      "type": "integer"
+    }, 
+    "@ccw": {
+      "type": "boolean"
+    }, 
+    "field:Action_7": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction7", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "MetadataFloat": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:MetadataFloat", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@containerField": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }, 
+    "@rotation": {
+      "items": [
+        {}
+      ], 
+      "type": [
+        "array", 
+        "integer"
+      ]
+    }, 
+    "@style": {
+      "type": "string"
+    }, 
+    "@translation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "-texCoord": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@USE": {
+      "type": "string"
+    }, 
+    "@on": {
+      "type": "boolean"
+    }, 
+    "@name": {
+      "type": "string"
+    }, 
+    "-texture": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@geoGridOrigin": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "ProtoDeclare": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:ProtoDeclare", 
+      "properties": {
+        "field:PAN_LEFT": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPANLEFT", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:PAN_RIGHT": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPANRIGHT", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:ROTATEOBJECT_LEFT_RIGHT_AXIS": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldROTATEOBJECTLEFTRIGHTAXIS", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:LOOK_DOWN": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldLOOKDOWN", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:UP_DOWN_AXIS": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldUPDOWNAXIS", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_3": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction3", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_2": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction2", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_1": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction1", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_0": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction0", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_7": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction7", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_6": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction6", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_5": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction5", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_4": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction4", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_9": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction9", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_8": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction8", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_35": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction35", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_34": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction34", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_37": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction37", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_36": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction36", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_31": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction31", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_30": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction30", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_33": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction33", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_32": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction32", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_39": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction39", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_38": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction38", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:poll": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPoll", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_22": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction22", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_23": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction23", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_20": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction20", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_21": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction21", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_26": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction26", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_27": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction27", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_24": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction24", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_25": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction25", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_28": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction28", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_29": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction29", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:PICK_OBJECT": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPICKOBJECT", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:define": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldDefine", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:PAN_LEFT_RIGHT_AXIS": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPANLEFTRIGHTAXIS", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:PAN_UP": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPANUP", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:ACTIVATION": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldACTIVATION", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:OBJ_2_ROT": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldOBJ2ROT", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:POINTER_2": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPOINTER2", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:POINTER_1": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPOINTER1", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:BANK_AXIS": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldBANKAXIS", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_50": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction50", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:PAN_DOWN": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPANDOWN", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:settingsName": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldSettingsName", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "-firstNodeType:children": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }, 
+        "field:WALK_FLY_TOGGLE": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldWALKFLYTOGGLE", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:LOOK_UP": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldLOOKUP", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:ADD_OBJECT": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldADDOBJECT", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:TRACING": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldTRACING", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_44": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction44", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_45": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction45", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_46": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction46", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_47": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction47", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_40": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction40", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_41": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction41", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_42": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction42", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_43": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction43", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:QUIT": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldQUIT", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_48": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction48", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_49": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction49", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_17": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction17", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:OBJ_1_ROT": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldOBJ1ROT", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:LOOK_RIGHT": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldLOOKRIGHT", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:timeStep": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldTimeStep", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:ROTATEOBJECT_UP_DOWN_AXIS": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldROTATEOBJECTUPDOWNAXIS", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:PAN": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPAN", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:THRUST_AXIS": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldTHRUSTAXIS", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "field:pollAtStartUp": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPollAtStartUp", 
+          "properties": {
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@name": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }, 
+            "@value": {
+              "type": "boolean"
+            }
+          }
+        }, 
+        "field:LOOK_RAZ": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldLOOKRAZ", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_19": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction19", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_18": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction18", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:PAN_UP_DOWN_AXIS": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPANUPDOWNAXIS", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_13": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction13", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_12": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction12", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_11": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction11", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_10": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction10", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:DISPLAY_MENU": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldDISPLAYMENU", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_16": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction16", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_15": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction15", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:Action_14": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldAction14", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:POV": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldPOV", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:LOOK_LEFT": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldLOOKLEFT", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }, 
+        "field:LEFT_RIGHT_AXIS": {
+          "type": "object", 
+          "id": "urn:jsonschema:x3djson:FieldLEFTRIGHTAXIS", 
+          "properties": {
+            "@name": {
+              "type": "string"
+            }, 
+            "@accessType": {
+              "type": "string"
+            }, 
+            "@type": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }, 
+    "@autoOffset": {
+      "type": "boolean"
+    }, 
+    "@normalPerVertex": {
+      "type": "boolean"
+    }, 
+    "@reference": {
+      "type": "string"
+    }, 
+    "field:LEFT_RIGHT_AXIS": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldLEFTRIGHTAXIS", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@profile": {
+      "type": "string"
+    }, 
+    "option": {
+      "items": [], 
+      "type": "array"
+    }, 
+    "@minPosition": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@faceCoordIndex": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@centerOfRotation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@texCoordIndex": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@fromField": {
+      "type": "string"
+    }, 
+    "@loop": {
+      "type": "boolean"
+    }, 
+    "field:pollAtStartUp": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPollAtStartUp", 
+      "properties": {
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@name": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }, 
+        "@value": {
+          "type": "boolean"
+        }
+      }
+    }, 
+    "@colorIndex": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "description": {
+      "type": "string"
+    }, 
+    "@tau": {
+      "type": "number"
+    }, 
+    "field:Action_23": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction23", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@bboxCenter": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@global": {
+      "type": "boolean"
+    }, 
+    "@xsd:noNamespaceSchemaLocation": {
+      "type": "string"
+    }, 
+    "@axisRotation": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@fromNode": {
+      "type": "string"
+    }, 
+    "field:LOOK_RAZ": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldLOOKRAZ", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_19": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction19", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_18": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction18", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@shininess": {
+      "type": "number"
+    }, 
+    "field:PAN_UP_DOWN_AXIS": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPANUPDOWNAXIS", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@edgeBeginCoordIndex": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:Action_13": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction13", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_12": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction12", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_11": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction11", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_10": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction10", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_17": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction17", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_16": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction16", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_15": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction15", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "field:Action_14": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction14", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@fogType": {
+      "type": "string"
+    }, 
+    "@creaseAngle": {
+      "type": "number"
+    }, 
+    "@family": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:POV": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldPOV", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@edgeEndCoordIndex": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "@deletionAllowed": {
+      "type": "boolean"
+    }, 
+    "field:Action_36": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldAction36", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@beamWidth": {
+      "type": "number"
+    }, 
+    "field:LOOK_LEFT": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldLOOKLEFT", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@uKnot": {
+      "items": [
+        {}
+      ], 
+      "type": "array"
+    }, 
+    "field:WALK_FLY_TOGGLE": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldWALKFLYTOGGLE", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@accessType": {
+          "type": "string"
+        }, 
+        "@type": {
+          "type": "string"
+        }
+      }
+    }, 
+    "@faceHidden": {
+      "type": "string"
+    }, 
+    "fieldValue:AnchorLightsOnOffSwitch": {
+      "type": "object", 
+      "id": "urn:jsonschema:x3djson:FieldValueAnchorLightsOnOffSwitch", 
+      "properties": {
+        "@name": {
+          "type": "string"
+        }, 
+        "@value": {
+          "items": [
+            {}
+          ], 
+          "type": "array"
+        }
+      }
+    }
+  }
+}

@@ -41,7 +41,7 @@ private void writeToStandardOutputWithModuleJsonSchema(
 		      String schema = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(jsonSchema);  
 		      FileOutputStream fos = new FileOutputStream(fullyQualifiedClassName[i]+".json");
 		      fos.write(schema.getBytes(), 0, schema.getBytes().length);
-		      out.println(fullyQualifiedClassName[i]);
+		      // out.println(fullyQualifiedClassName[i]);
 		}  catch (ClassNotFoundException cnfEx)  {  
 		      err.println("Unable to find class " + fullyQualifiedClassName);  
 		      cnfEx.printStackTrace();
