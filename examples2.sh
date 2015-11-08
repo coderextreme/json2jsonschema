@@ -1,7 +1,14 @@
 #!/bin/bash -x
 # batch process stuff
+chmod 755 ~/Downloads/jsonschema2pojo-jsonschema2pojo-0.4.16/jsonschema2pojo-cli/target/jsonschema2pojo.sh
+ln -s ~/Downloads/jsonschema2pojo-jsonschema2pojo-0.4.16/jsonschema2pojo-cli/target/jsonschema2pojo.sh .
+ mkdir All
 mkdir All2
 mkdir X3D
+brew install python
+brew linkapps python
+sudo easy_install pip
+sudo pip install genson
 
 cp -r www.web3d.org All2/.
 find All2/ -type f -name "*.json" -print0 | xargs -0 node FindBad.js | xargs rm

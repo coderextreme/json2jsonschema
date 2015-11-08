@@ -15,6 +15,4 @@
 # limitations under the License.
 #
 
-SCRIPTPATH=/Users/johncarlson/Downloads/jsonschema2pojo-jsonschema2pojo-0.4.16/jsonschema2pojo-cli/target
-
-java -jar ${SCRIPTPATH}/jsonschema2pojo-cli-0.4.16.jar "$@"
+java -jar /Users/johncarlson/Downloads/jsonschema2pojo-jsonschema2pojo-0.4.16/jsonschema2pojo-cli/target/jsonschema2pojo-cli-0.4.16.jar "$@"

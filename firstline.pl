@@ -1,4 +1,4 @@
-#!/opt/local/bin/perl
+#!/usr/bin/perl
 while (<STDIN>) {
 	chomp;
 	if ($_ eq '') {

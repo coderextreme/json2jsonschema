@@ -7,5 +7,5 @@ find x3djson -name '*class'| sed 's/.class//' | sed 's/\//./' | xargs java -cp .
 mkdir schema
 mv x3djson.*.json schema
 find schema -type f -name "*.json" -print0 | xargs -0 node FindBad.js | xargs rm
-# sh jsonschema2pojo.sh -T JSONSCHEMA -t schema.json -s schema
-(ls schema/* | sed 's/^/ -s /';  echo ../x3djson/Box.output.json) | xargs python ../GenSON/bin/genson.py -i 2 > schema.json
+# ./jsonschema2pojo.sh -303 -T JSONSCHEMA -t schema.json -s schema
+(ls schema/* | sed 's/^/ -s /';  echo ../x3djson/Box.output.json) | xargs python ../genson/bin/genson.py -i 2 > schema.json
