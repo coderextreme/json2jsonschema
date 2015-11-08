@@ -2,22 +2,16 @@
 
 var fs = require('fs');
 
-function parseFile(file) {
-	fs.readFile(file, function(err, data) {
-		if (err) {
-			throw err;
-		}
-		try {
-			JSON.parse(data);
-			console.log(file);
-		} catch (e) {
-		}
-	});
-}
 for (i in process.argv) {
 	if (i < 2) {
 		continue;
 	}
 	var file = process.argv[i];
-	parseFile(file);
+        data = fs.readFileSync(file, "utf8");
+	try {
+		JSON.parse(data);
+		console.log(file);
+	} catch (e) {
+		console.error(e);
+	}
 }

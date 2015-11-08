@@ -1,4 +1,5 @@
 #!/bin/sh
 #cat /dev/null > allschema.json
-#python ../genSON/bin/genson.py -i 2 -s allschema.json all.json  >> allschema.json
-./jsonschema2pojo.sh -T JSONSCHEMA -t X3D -s ../genSON/x3dmerge.json
+#genson -i 2 -s allschema.json all.json  >> allschema.json
+./createmerge.sh
+./jsonschema2pojo.sh -T JSONSCHEMA -t X3DMERGE -s x3dmerge.json
